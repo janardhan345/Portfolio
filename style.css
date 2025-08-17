@@ -1,6 +1,31 @@
-/* General */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-bg { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    background: linear-gradient(120deg, #8767d8 0%, #33a4d1 50%, #221f1f 100%);
+    pointer-events: none;
+}
+
+    nav, section{
+        position: relative;
+        z-index: 1;
+    }
 
 *
 {
@@ -162,6 +187,8 @@ section{
 
 #profile{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
@@ -177,6 +204,9 @@ section{
 .section__text { 
     align-self: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section__text p {
