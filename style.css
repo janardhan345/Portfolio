@@ -46,7 +46,7 @@ nav{
 }
 
 a {
-    color: rgb(14, 194, 203);
+    color: rgb(30, 32, 32);
     text-decoration: none;
     text-decoration-color: white;    
 }
@@ -181,13 +181,12 @@ section{
 
 .section__text p {
     font-weight: 600;
-
 }
 
-section__text__p1 {
+.section__text__p1 {
     text-align: center;
 }
-section__text__p2 {
+.section__text__p2 {
     margin-bottom: 1rem;
     font-size: 1.75rem;
 }
@@ -251,4 +250,59 @@ section__text__p2 {
 
 .btn-container{
     gap: 1rem;
+}
+
+/* About section */
+
+#about{
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    cursor: pointer;
+    height: 2rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto;
 }
