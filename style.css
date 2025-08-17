@@ -199,10 +199,10 @@ section{
 
 }
 
-section__text__p1 {
+.section__text__p1 {
     text-align: center;
 }
-section__text__p2 {
+.section__text__p2 {
     margin-bottom: 1rem;
     font-size: 1.75rem;
 }
